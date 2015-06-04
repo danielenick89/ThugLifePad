@@ -1,0 +1,60 @@
+.pad-element{
+	position:relative;
+	float:left;
+	text-align: center;
+	width: 120px;
+	height: 80px;
+	margin: 20px;
+	padding: 50px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.3em;
+	overflow: hidden;
+}
+
+.header{
+	text-align:center;
+}
+
+.header img{
+	width: 70%;
+}
+
+body{
+	background-color: black;
+	color:white;
+}
+
+p.footer{
+	width:100%;
+	text-align: center;
+}
+
+button#stop{
+	position: relative;
+	border:0px;
+	border-radius: 4px;
+	font-size: 1.2em;
+	padding: 20px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.bar{
+	position:absolute;
+	height:100%;
+	opacity: 0.5;
+	width: 0%;
+	left: 0%;
+	top:0%;
+}
+
+.fadeOutBar{
+	background-color: blue;
+}
+
+.songBar{
+	background-color: red;
+}
+
