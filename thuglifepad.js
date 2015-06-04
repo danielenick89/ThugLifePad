@@ -42,7 +42,9 @@ var ThugLifePad = (function() {
 	var loadElement = function(e) {
 		var div = document.createElement('div');
 		div.className = 'pad-element';
-		div.style.backgroundColor = e.color;
+		//div.style.backgroundColor = e.color;
+
+
 		div.style.opacity = '0.5';
 		div.innerText = e.title;
 		div.onclick = getClickHandler(e,div);

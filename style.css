@@ -7,10 +7,17 @@
 	margin: 20px;
 	padding: 30px;
 	cursor: pointer;
-	border-radius: 5px;
+	border-radius: 50%;
 	font-weight: bold;
 	font-size: 1.0em;
 	overflow: hidden;
+	color: white;
+	border: 2px solid white;
+	background-color: #333333;
+	background-image: url(img/gun.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
 }
 
 .header{
@@ -23,6 +30,10 @@
 
 body{
 	background-color: black;
+	background-image: url(img/thugback.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 20%;
 	color:white;
 }
 
@@ -35,12 +46,15 @@ p.footer{
 
 button#stop{
 	position: relative;
-	border:0px;
 	border-radius: 4px;
 	font-size: 1.2em;
 	padding: 20px;
 	cursor: pointer;
 	overflow: hidden;
+
+	color: white;
+	border: 2px solid white;
+	background-color: #333333;
 }
 
 .bar{
